@@ -1,0 +1,14 @@
+﻿CWE,Vulnerability Type,File,Line
+CWE-78,Command Injection,src/main/java/Service/vulnerability/commandInjection,40
+CWE-601,Open Redirect,src/main/java/Service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection,56
+CWE-434,Unrestricted File Upload,src/main/java/Service/vulnerability/fileupload/UnrestrictedFileUpload,163
+CWE-22,Path traversal,src/main/java/Service/vulnerability/pathTraversal/PathTraversalVulnerability,45
+CWE-98,Remote File Inclusion,src/main/java/Service/vulnerability/rfi/UrlParamBasedRFI,36
+CWE-89,SQLInjection,src/main/java/Service/vulnerability/sqlInjection/BlindSQLInjectionVulnerability,43
+CWE-89,SQLInjection,src/main/java/Service/vulnerability/sqlInjection/ErrorBasedSQLInjectionVulnerability,59
+CWE-89,SQLInjection,src/main/java/Service/vulnerability/sqlInjection/UnionBasedSQLInjebnctionVulnerability,38
+CWE-918,SSRF,src/main/java/Service/vulnerability/ssrf/SSRFVulnerability,87
+CWE-79,Persistent XSS,src/main/java/Service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability,57
+CWE-79,Reflected XSS,src/main/java/Service/vulnerability/xss/reflected/XSSInImgTagAttribute,43
+CWE-79,Reflected XSS,src/main/java/Service/vulnerability/xss/reflected/XSSWithHtmlTagInjection,26
+CWE-611,XXE,src/main/java/Service/vulnerability/xxe/XXEVulnerability,50
